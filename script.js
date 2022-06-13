@@ -14,7 +14,7 @@ function skaiciusDalinasiDvieju(skaicius)
     }
    
     
-    else ((skaicius % 2 >1) ) 
+    else if ((skaicius % 2 >0) ) 
     {
         return false;
     }
